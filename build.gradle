@@ -1,0 +1,27 @@
+buildscript {
+    ext.kotlin_version = "1.7.20"
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url('repo')
+        }
+    }
+    dependencies {
+        //noinspection AndroidGradlePluginVersion
+        classpath "com.android.tools.build:gradle:7.2.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.20"
+        classpath "com.dream:customtransformplugin:1.0.6"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

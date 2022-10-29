@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "GradleTransformDemo",
+    "module": "customtransformplugin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "customtransformplugin-1.0.3.jar",
+          "url": "customtransformplugin-1.0.3.jar",
+          "size": 14647,
+          "sha512": "98b847e8e66170a49e4b435f570e0d56a7cdd7f547698abf2cdb27c386acada4ff9941578880365f9dbf12da95825c5ddbe78df69f5ad87965b97fa48e0682a0",
+          "sha256": "873cc9033b4c34aa8e41cdb48d5e67ca810d53f1fe06b2e66a09dadd5f462721",
+          "sha1": "6ff146f2e09d41251b5cfee2c641fa73568ea9a1",
+          "md5": "f043da775e99495073a904e13fc7d928"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "30.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "customtransformplugin-1.0.3.jar",
+          "url": "customtransformplugin-1.0.3.jar",
+          "size": 14647,
+          "sha512": "98b847e8e66170a49e4b435f570e0d56a7cdd7f547698abf2cdb27c386acada4ff9941578880365f9dbf12da95825c5ddbe78df69f5ad87965b97fa48e0682a0",
+          "sha256": "873cc9033b4c34aa8e41cdb48d5e67ca810d53f1fe06b2e66a09dadd5f462721",
+          "sha1": "6ff146f2e09d41251b5cfee2c641fa73568ea9a1",
+          "md5": "f043da775e99495073a904e13fc7d928"
+        }
+      ]
+    }
+  ]
+}
