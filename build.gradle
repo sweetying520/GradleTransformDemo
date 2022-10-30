@@ -11,7 +11,7 @@ buildscript {
         //noinspection AndroidGradlePluginVersion
         classpath "com.android.tools.build:gradle:7.2.0"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.20"
-        classpath "com.dream:customtransformplugin:1.0.6"
+        classpath "com.dream:customtransformplugin:1.0.0"
     }
 }
 
@@ -19,6 +19,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
+        maven { url 'https://jitpack.io' }
     }
 }
 

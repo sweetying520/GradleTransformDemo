@@ -1,5 +1,6 @@
 package com.dream.customtransformplugin
 
+import com.dream.customtransformplugin.base.BaseCustomTransform
 import java.io.InputStream
 import java.io.OutputStream
 

@@ -42,4 +42,14 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.github.sweetying520:AndroidUtils:1.0.7'
+
+    //asm
+    implementation 'org.ow2.asm:asm:9.2'
+    implementation 'org.ow2.asm:asm-util:9.2'
+    implementation 'org.ow2.asm:asm-commons:9.2'
+    //Javassist
+    implementation 'org.javassist:javassist:3.29.2-GA'
+
 }
